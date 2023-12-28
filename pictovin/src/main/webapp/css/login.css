@@ -1,0 +1,82 @@
+body {
+	background-color: #BBD8F8;
+}
+form {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	margin-top: 60px;
+}
+.title {
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.inputWrap {
+	margin-bottom: 17px;
+}
+input {
+	width: 410px;
+	padding: 12px;
+	box-sizing: border-box;
+	border: 1px solid #7C7D80;
+	border-radius: 10px;
+}
+.option {
+	font-size: 15px;
+	color: #7C7D80;
+	margin-bottom: 35px;
+	margin-top: 18px;
+}
+.btn {
+	margin-bottom: 17px;
+}
+.loginbtn, .googlebtn, .registerbtn {
+	width: 410px;
+	padding: 10px;
+	border: none;
+	border-radius: 50px;
+	background-color: #C39FFF;
+	color: #ffffff;
+	font-size: 17px;
+	cursor: pointer;
+}
+.googlebtn {
+	background-color: #ffffff;
+	color: black;
+	position: relative;
+}
+.googlebtn img{
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20px;
+	height: 20px;
+}
+.id {
+	position: relative;
+}
+.chk_btn {
+	font-size: 12px;
+	font-weight: bold;
+	width: 67px;
+	padding: 6px;
+	background: #E9E9E9;
+	border-radius: 10px;
+	position: absolute;
+	margin-top: 24px;
+	margin-left: 333px;
+	border: none;
+	
+}
+a {
+	text-decoration-line: none;
+	color: inherit
+}
+button img {
+	margin-right: 280px; /* Adjust spacing between image and text */
+}

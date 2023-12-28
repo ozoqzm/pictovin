@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+body {
+   position: relative;
+   padding-top: 2%;
+   background-color: #BBD8F8;
+   overflow-y: auto; /* 수직 스크롤바 */
+}
+
+#side {
+   position: relative;
+   margin: auto;
+   margin-bottom: 30px;
+   display: flex;
+   justify-content: space-between;
+   width: 730px;
+}
+
+#title {
+   position: relative;
+   left: 0px;
+   margin-right: 880px;
+}
+
+#box1 {
+   position: relative;
+   margin: auto;
+   width: 800px;
+   height: 30px;
+   margin-top: 30px;
+}
+
+#albumname {
+   position: relative;
+}
+
+#whiteBox {
+   position: relative;
+   margin: auto;
+   width: 900px;
+   height: 570px;
+   background: white;
+   overflow-x: auto;
+   white-space: nowrap;
+   justify-content: center;
+   align-items: center;
+}
+
+#box {
+   position: relative;
+   margin: auto;
+   width: 800px;
+   height: 50px;
+}
+
+#plusbtn {
+   position: absolute;
+   z-index: 3;
+   right: 90px;
+   bottom: -10px;
+}
+
+#line {
+   width: 100%;
+   height: 4px;
+   background: #FFF;
+   border: none;
+   
+}
+
+#imageBox {
+   position: relative;
+   margin: auto;
+   margin-top: 40px;
+   margin-left: 5px;
+   width: 175px;
+   height: 500px;
+   border: 1px solid #423151;
+   display: inline-block;
+   overflow: hidden;
+}
+
+#whiteBox::-webkit-scrollbar {
+   height: 8px;
+}
+
+#whiteBox::-webkit-scrollbar-thumb {
+   background-color: #888;
+   border-radius: 6px;
+}
+
+#share1 {
+   width: 130px;
+   height: 100px;
+}
+
+#vector1 {
+   width: 130px;
+   height: 80px;
+}
+
+#vector2 {
+   width: 130px;
+   height: 80px;
+}
+
+#search {
+   width: 20px;
+   height: 20px;
+}
+
+/* Rectangle 59 */
+.rectangle {
+   position: absolute;
+   width: 115px;
+   height: 44px;
+   background: linear-gradient(0deg, #FFF495, #FFF495),
+      linear-gradient(0deg, #FFF495, #FFF495), #FFF495;
+   border-radius: 20px;
+}
+/* 앨범명 */
+.albumName {
+   position: absolute;
+   width: 66px;
+   height: 24px;
+   margin-top: 95px;
+   margin-left: 230px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-align: center;
+   color: #000000;
+}
+
+/* Line 13 */
+.line1 {
+   position: absolute;
+   width: 235px;
+   height: 0px;
+   margin-left: 339px;
+   margin-top: 130.5px;
+   border: 1px solid #000000;
+}
+
+/* 공 유 */
+.share {
+   position: absolute;
+   width: 54px;
+   height: 24px;
+   margin-top: 155px;
+   margin-left: 235px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-align: center;
+   color: #000000;
+}
+
+/* switch */
+.switch {
+   position: relative;
+   display: inline-block;
+   width: 171px;
+   height: 44px;
+}
+
+.switch input {
+   opacity: 0;
+   width: 0;
+   height: 0;
+}
+
+.slider {
+   position: absolute;
+   cursor: pointer;
+   background-color: #DEDEDE;
+   -webkit-transition: .4s;
+   transition: .4s;
+   border-radius: 34px;
+}
+
+.slider:before {
+   position: absolute;
+   content: "OFF";
+   height: 44px;
+   width: 96px;
+   margin-left: 401px;
+   margin-top: 143px;
+   text-align: center;
+   line-height: 42px;
+   background-color: #DEDEDE;
+   -webkit-transition: .4s;
+   transition: .4s;
+   border-radius: 34px;
+}
+
+.slider:after {
+   position: absolute;
+   content: "ON";
+   height: 44px;
+   width: 96px;
+   margin-left: 401px;
+   margin-top: 143px;
+   line-height: 42px;
+   text-align: center;
+   background-color: #FFF495;
+   -webkit-transition: .4s;
+   transition: .4s;
+   border-radius: 34px;
+   opacity: 0;
+}
+
+input:checked+.slider {
+   background-color: #DEDEDE;
+}
+
+input:focus+.slider {
+   box-shadow: 0 0 1px #DEDEDE;
+}
+
+input:checked+.slider:before {
+   opacity: 0;
+}
+
+input:checked+.slider:after {
+   opacity: 1;
+}
+
+/* 버튼 스타일링 */
+.create-button {
+   position: absolute;
+   font-size: 20px;
+   font-weight: 400;
+   text-align: center;
+   text-decoration: none;
+   background-color: white;
+   margin-top: 238px;
+   margin-left: 414px;;
+   color: #000000;
+   border: none;
+   cursor: pointer;
+}
+
+span {
+   margin-left: 20px;
+}
+
+nav {
+   color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #423151; 
+}

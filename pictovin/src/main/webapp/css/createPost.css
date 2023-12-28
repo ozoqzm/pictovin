@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body {
+	position: relative;
+	padding-top: 5%;
+	background-color: #BBD8F8;
+}
+
+#backbtn {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+#whiteBox {
+	position: relative;
+	margin: auto;
+	border: 2px solid #423151;
+	padding: 10px;
+	border-radius: 30px;
+	width: 560px;
+	height: 670px;
+	background-color: #ffffff;
+}
+
+#side {
+	position: relative;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	width: 520px;
+}
+
+#dateBar {
+	position: relative;
+	margin: auto;
+	padding: 5px;
+	width: 530px;
+	border-radius: 15px;
+	background-color: #C39FFF;
+	color: #ffffff;
+	margin-top: 5px;
+	margin-bottom: 13px;
+	color: #FFF;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+#imageZone {
+	position: relative;
+	display: inline-block;
+	width: 220px;
+	height: 550px;
+	border: 0px solid #423151;
+	line-height: 2.0;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	overflow: hidden; /* 이미지가 컨테이너를 넘어가지 않도록 함 */
+}
+
+#textBox {
+	position: relative;
+	display: inline-block;
+	width: 260px;
+	height: 550px;
+	border: 1px solid #423151;
+	border-radius: 30px;
+	line-height: 2.0;
+	padding: 5px;
+	resize: none;
+}
+
+#plusIcon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer; 
+}
+
+#addbtn {
+	position: relative;
+	line-height: 2.0;
+}
+
+#nextbtn {
+	position: absolute;
+	margin-top: 10px;
+	right: 20px;
+}
+
+#imageInput {
+	display: none;
+}

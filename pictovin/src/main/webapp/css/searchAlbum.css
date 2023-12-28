@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body {
+    background-color: #BBD8F8;
+}
+
+form {
+	margin: 0;
+    padding: 0;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 60px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 55px;
+}
+
+.searchWrap {
+    margin-bottom: 27px;
+}
+
+.search {
+    width: 550px;
+    padding: 14px;
+    color: #7C7D80;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-top: 25px;
+    padding: 50px;
+}
+
+.albumSet {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.albumInfo {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.albumInfo img {
+    width: 109.62px;
+    height: 88.83px;
+}
+
+.text {
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+.requestbtn {
+    margin-left: auto; 
+    padding: 12px;
+    background-color: #F2F2F2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.searchWrap {
+    position: relative;
+}
+
+.search {
+    width: 550px;
+    padding: 14px;
+    color: #7C7D80;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 20px; 
+    height: 20px; 
+    cursor: pointer;
+}

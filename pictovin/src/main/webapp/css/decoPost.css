@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+body {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10%;
+	padding-top: 5%;
+	background-color: #BBD8F8;
+}
+
+#diary {
+	width: 45%;
+	margin-left: 70px;
+}
+
+#decorations {
+	width: 45%;
+}
+
+#diaryBox {
+	border: 2px solid #423151;
+	padding: 10px;
+	border-radius: 30px;
+	width: 500px;
+	height: 670px;
+	background-color: #ffffff;
+}
+
+#date {
+	padding: 5px;
+	width: 490px;
+	border-radius: 15px;
+	background-color: #C39FFF;
+	color: #ffffff;
+	margin-bottom: 25px;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+#diaryContent {
+	flex: 1;
+	display: flex;
+	padding: 5%;
+	gap: 10%;
+}
+
+#diaryImage {
+	max-width: 50%;
+	height: auto;
+}
+
+#diaryText {
+	width: 50%;
+	height: 550px;
+	border: 1px solid #423151;
+	border-radius: 30px;
+	line-height: 2.0;
+	padding: 5px;
+}
+
+#decoContainer {
+	padding: 10px;
+	border-radius: 18px;
+	width: 400px;
+	height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3px;
+	border: 2px solid #FFF495;
+	background-color: #ffffff;
+	overflow: auto;
+	justify-content: space-around;
+	position: relative;
+}
+
+.decoItem {
+	flex: 0 0 calc(33.33% - 3px);
+	padding: 5px;
+	text-align: center;
+	font-size: 70px;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+#sticker {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	right: 260px;
+	top: 45px;
+	margin: 10px;
+	padding: 10px;
+	width: 150px;
+	font-size: 18px;
+	color: #423151;
+	background-color: #FFF495;
+	border-radius: 15px;
+}
+
+#completeButton {
+	margin-top: 20px;
+	padding: 10px;
+	width: 430px;
+	background-color: #C39FFF;
+	border: #C39FFF;
+	border-radius: 50px;
+	color: #ffffff;
+	font-size: 18px;
+}
