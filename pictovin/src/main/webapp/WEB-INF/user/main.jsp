@@ -106,7 +106,7 @@ nav a {
 	</nav>
 	<div id="logo-container">
 		<img id="logo" src="<c:url value='/images/logo.png' />" alt="Logo">
-		<span id="logo-text2">Pictovin, 이렇게 활용하세요!</span>
+		<span id="logo-text2">Pictovin, 이렇게 활용해보세요!</span>
 	</div>
 	<div id="box">
 		<a href="#" id="diary"> <strong>다이어리 작성🐰</strong> <span
