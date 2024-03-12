@@ -14,8 +14,6 @@
 저장소를 제공합니다.
 <br> 사진만 찍으려면 어색한, 항상 똑같은 사진이 싫은 당신을 위한 태그 기반 컨셉 추천 기능을 제공합니다.
 
-
-
 ## ✔️개발 기간
 * #### 2023.12.02 - 2023.12.24
 
@@ -45,10 +43,18 @@
 * 마이 페이지- 사용자 정보 수정
 * 로그아웃
 
+## ✔️주요 화면 구성
+<img src="https://github.com/ozoqzm/pictovin/assets/105548648/3491908a-12ce-49eb-92c3-24e87279e5e9"  width='50%'>
+<br>
+<img alt="main" src="https://github.com/ozoqzm/pictovin/assets/105548648/86532195-6c5f-433d-af85-c4bf144dac0f" width='35%'>
+<img src="https://github.com/ozoqzm/pictovin/assets/105548648/04c5d9e7-8c20-47db-8507-805cb4bb955f"  width='31%'>
+<br>
+<img src="https://github.com/ozoqzm/pictovin/assets/105548648/ce31e8ad-f9b2-4797-89d9-409a2f93fe07"  width='29%'>
+<img src="https://github.com/ozoqzm/pictovin/assets/105548648/cdb9b632-20c8-440c-bade-b8afd56de8e7"  width='37%'>
 
 ## ✔️시연 영상
 
-* 시연영상 주소:   [구글 드라이브](#)
+* 시연영상 주소:   [구글 드라이브](https://drive.google.com/file/d/1KrdfSy4NBhQzfJMyT719X_HVlgDws1RI/view?usp=sharing)
 
 
 
