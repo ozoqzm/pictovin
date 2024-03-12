@@ -54,7 +54,7 @@
 
 ## ✔️시연 영상
 
-* 시연영상 주소:   [구글 드라이브](https://drive.google.com/file/d/1KrdfSy4NBhQzfJMyT719X_HVlgDws1RI/view?usp=sharing)
+* 시연영상 주소:   [구글 드라이브](https://drive.google.com/file/d/1sVbZUpW4BlYe5yaklqCSYQ2iFdLmlEqG/view?usp=sharing)
 
 
 
